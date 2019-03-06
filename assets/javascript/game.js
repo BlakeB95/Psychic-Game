@@ -42,7 +42,7 @@ document.onkeyup = function(event) {
     if (userInput === randomLetter) {
         updateRandLetter();
         wins++;
-        remainingGuesses = 9;
+        remainingGuesses = 10;
         guessesSoFar = "";
       }
      
