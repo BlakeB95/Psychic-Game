@@ -56,7 +56,7 @@ document.onkeyup = function(event) {
       else {
         updateRandLetter();
         losses++;
-        remainingGuesses = 9;
+        remainingGuesses = 10;
         guessesSoFar = "";
       }
 
